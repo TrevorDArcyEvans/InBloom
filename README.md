@@ -62,6 +62,9 @@ increases, probably due storage filling up.
 
 Note that the implementation maintains the error rate below the requested 1%.
 
+On *Debian Linux*, there seems to be an overhead of ~30 MB to run the program but
+this does not increase appreciably with the number of data items.
+
 ## Conclusions
 
 The selected data type is a *GUID* which is guaranteed to be unique.  More realistic data would
